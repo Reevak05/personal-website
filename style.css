@@ -1,22 +1,59 @@
 body {
     background-color: #f1f1f1;
-    font-family: Questrial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1 {
     color: black;
     text-align: center;
-    font-weight: bold;
-    font-size: 120px;
-    margin-bottom: 0;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
 }
 
 h2 {
-    text-align: justify;
+    text-align: center;
     color: #277bff;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #277bff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.the {
+    text-align: center;
+    color: #277bff;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
 }
 
 /* for centering photo */
@@ -24,5 +61,5 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: auto;
 }
