@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://student-community.kaveergera.com"
+  to = "https://studentcommunity.kaveergera.com"
+  status = 301
+  force = true
