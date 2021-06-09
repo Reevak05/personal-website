@@ -4,6 +4,7 @@ body {
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 20px;
 }
 
 h1 {
@@ -33,7 +34,7 @@ h2 {
 
 h3 {
     text-align: center;
-    color: #277bff;
+    color: black;
     font-size: 30px;
     font-weight: 400;
     line-height: 1;
@@ -43,23 +44,14 @@ h3 {
     margin-right: 20px;
 }
 
-.the {
-    text-align: center;
-    color: #277bff;
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-transform: uppercase;
-}
-
 /* for centering photo */
-.center {
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
 }
