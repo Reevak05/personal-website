@@ -1,0 +1,7 @@
+# Hello!
+
+User-agent: ia_archiver # Disallow Internet Archive Wayback Machine
+Disallow: /
+
+User-agent: * # Allow all others
+Allow: /
