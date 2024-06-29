@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light" xmlns="http://www.w3.org/1999/html">
+<html data-bs-theme="light" lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Magic Chess for Wizards & Lonely People</title>
-    <meta name="description" content="Chess pieces which move themselves, designed and built by Kaveer Gera.">
-    <link rel="stylesheet" href="magicchess.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta content="Chess pieces which move themselves, designed and built by Kaveer Gera." name="description">
+    <link href="magicchess.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 
 
@@ -22,26 +22,30 @@
 <body class="background">
 
 <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-1 fw-bold text-body-emphasis">Magic Chess</h1>
+    <a href="https://kaveergera.com" style="text-decoration: none">
+        <h1 class="display-1 fw-bold text-body-emphasis">Magic Chess</h1>
+    </a>
     <div class="col-lg-6 mx-auto">
         <p class="display-6 fw-normal text-body-emphasis"> for Wizards & Lonely People</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 pt-4">
-            <a type="button" href="https://youtu.be/qUIAnZ0cvvo" target="_blank" rel="noopener noreferrer"
-               class="btn btn-outline-warning rounded-pill btn-lg px-4 me-sm-3"><i class="bi bi-play-circle-fill"></i> Watch</a>
-            <a type="button" href="#details" class="btn btn-outline-secondary rounded-pill btn-lg px-4"><i
+            <a class="btn btn-outline-warning rounded-pill btn-lg px-4 me-sm-3" href="https://youtu.be/qUIAnZ0cvvo"
+               rel="noopener noreferrer" target="_blank"
+               type="button"><i class="bi bi-play-circle-fill"></i>
+                Watch</a>
+            <a class="btn btn-outline-secondary rounded-pill btn-lg px-4" href="#details" type="button"><i
                     class="bi bi-file-text-fill"></i> More</a>
         </div>
     </div>
     <div class="overflow-hidden" style="max-height: 40vh;">
         <div class="container px-5">
-            <img src="/magicchess/Magic_Chess_Kaveer_Gera_1.gif" class="img-fluid border rounded-4 shadow-lg mb-4"
-                 alt="Example image" width="640" height="446" loading="lazy">
+            <img alt="Example image" class="img-fluid border rounded-4 shadow-lg mb-4"
+                 height="446" loading="lazy" src="/magicchess/Magic_Chess_Kaveer_Gera_1.gif" width="640">
         </div>
     </div>
 </div>
 
 <div class="container px-4 py-1" id="custom-cards">
-    <h2 class="pb-2 border-bottom">Coverage</h2>
+    <h2 class="pb-2 border-bottom border-secondary-subtle">Coverage</h2>
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-1">
         <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg img-overlay border border-warning border-5"
@@ -50,19 +54,20 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Framework Computer</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
-                            <a href="https://youtu.be/qUIAnZ0cvvo" target="_blank" rel="noopener noreferrer"
-                               class="bi-youtube stretched-link"
-                               style="color: #ffc107; font-size: 2rem"></a>
+                            <a class="bi-youtube stretched-link" href="https://youtu.be/qUIAnZ0cvvo"
+                               rel="noopener noreferrer"
+                               style="color: #ffc107; font-size: 2rem"
+                               target="_blank"></a>
 
                         </li>
                         <li class="d-flex align-items-center me-3">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#geo-fill"></use>
                             </svg>
                             <small>Featured Interview</small>
                         </li>
                         <li class="d-flex align-items-center">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#calendar3"></use>
                             </svg>
                         </li>
@@ -78,18 +83,19 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-semibold">CodeMiko</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
-                            <a href="https://www.twitch.tv/videos/2173123450?t=00h09m28s" target="_blank"
-                               rel="noopener noreferrer" class="bi-twitch stretched-link"
-                               style="color: #ff3b19; font-size: 2rem"></a>
+                            <a class="bi-twitch stretched-link"
+                               href="https://www.twitch.tv/videos/2173123450?t=00h09m28s"
+                               rel="noopener noreferrer" style="color: #ff3b19; font-size: 2rem"
+                               target="_blank"></a>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#geo-fill"></use>
                             </svg>
                             <small>Interview</small>
                         </li>
                         <li class="d-flex align-items-center">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#calendar3"></use>
                             </svg>
                         </li>
@@ -105,18 +111,19 @@
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-semibold">Scorpios BattleBot</h3>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
-                            <a href="https://youtu.be/59J1nwnleYM?t=355" target="_blank" rel="noopener noreferrer"
-                               class="bi-youtube stretched-link"
-                               style="color: #e31086; font-size: 2rem"></a>
+                            <a class="bi-youtube stretched-link" href="https://youtu.be/59J1nwnleYM?t=355"
+                               rel="noopener noreferrer"
+                               style="color: #e31086; font-size: 2rem"
+                               target="_blank"></a>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#geo-fill"></use>
                             </svg>
                             <small>Interview</small>
                         </li>
                         <li class="d-flex align-items-center">
-                            <svg class="bi me-2" width="1em" height="1em">
+                            <svg class="bi me-2" height="1em" width="1em">
                                 <use xlink:href="#calendar3"></use>
                             </svg>
                         </li>
@@ -126,10 +133,147 @@
         </div>
     </div>
     <a id="details"></a>
-    <main class="container my-5">
-        <section class="mb-5">
-<!--            <h2>Details</h2>-->
-<!--            <p>powered by ghosts</p>-->
+    <main class="container my-5 border border-secondary border-4 rounded-4 shadow-sm">
+        <section class="mb-5 mx-3">
+            <h2 class="pb-2 pt-4 border-bottom border-secondary-subtle">Details</h2>
+            <p>
+                Chess is a tactile game, and that tactility is part of what makes it special. I wanted to create a way
+                to play chess against a computer while preserving the tactility that gives chess its charm, which led to
+                Magic Chess (for Wizards & Lonely People). Another goal of mine was to make it sleek and self-contained
+                so that the user couldn't see any moving parts.
+            </p>
+            <p>
+                I liked the combination of different skills required for the project: prototyping, CAD, electronics,
+                fabrication, and programming. I’m not the first person to build a self-playing chessboard; there are
+                entire companies that build and sell automatic chessboards, and other people have made detailed guides
+                on how they built theirs. However, I wanted to see if I could navigate the entire process myself, so I
+                deliberately didn’t look at any existing guides.
+            </p>
+
+            <h3>Getting Started</h3>
+            <p>First, I conceptualized the basic concept behind the board. I thought the most straightforward way to
+                move a chess piece precisely and consistently without touching would be by moving a magnet under the
+                board surface. I elected to use an electromagnet instead of a permanent magnet to eschew a degree of
+                freedom, since an electromagnet can be turned on and off instead of needing to move it upwards and
+                downwards to control the magnetic field affecting the pieces.</p>
+            <p>To move the electromagnet in the X- and Y-dimensions, I would need a gantry system. As opposed to
+                building my own gantry system, I decided to repurpose an existing gantry from a 3D printer, which would
+                save development time and be more reliable. Luckily for me, 3D printer extruder systems tend to fail
+                before the gantry systems, so I could harvest the gantry system from an old broken printer. Most
+                “bed-slinger” 3D printers move the bed in the Y-axis and link the X- and Z-axes together. The Z-axis is
+                usually driven using a lead screw, which would be much too slow for moving chess pieces. I found and
+                purchased an old 3D printer in my area which moved its bed in the Z-axis and moved its extruder in the
+                X- and Y- axes.</p>
+
+            <h3>Frame and Electronics</h3>
+            <p>I disassembled the 3D printer to isolate the gantry system, which uses two stepper motors to move the
+                gantry in the two dimensions. I built an initial prototype frame out of cardboard to check the
+                dimensions of the gantry and then built a second prototype out of 2x4 lumber, measuring the required
+                frame dimensions, hole depths, and hole placements to mount the gantry system and the Y-axis stepper
+                motor and limit switch.</p>
+            <p>With a rudimentary frame for the gantry built, it was time to figure out how to control it. I powered the
+                stepper motors using the power supply from the disassembled 3D printer (which was overkill but
+                functional). I experimented with using the 3D printer control board to control the gantry system because
+                it was previously connected and already had all the necessary control hardware, but it kept panicking
+                about the fact that I had disconnected most of its parts. I considered working out how to modify the
+                firmware on the board to disable the errors and extraneous functionality because it would have allowed
+                me to simply transmit g-code to the board, but, after exploring it, I decided to connect a different
+                controller directly to the gantry and build my own framework for moving the carriage in 2D space. I used
+                an Arduino Uno and a motor shield to connect to the two stepper motors which control the gantry and the
+                two limit switches.</p>
+
+            <h3>Controlling the Gantry</h3>
+            <p>With the preliminary electronics connected, I set out writing the code to control the gantry movement.
+                First, I created a bounds detection routine to ensure the carriage wouldn’t try to exceed the bounds of
+                the gantry system and rip itself apart. When the program starts, it initiates a homing sequence, which
+                moves each motor slowly toward the edge of the axis until it contacts the limit switch. The program then
+                knows the carriage is in the top left corner. The program keeps track of any movement commands in the
+                future, so the controller knows if a command would cause it to exceed the bounds of the frame. This also
+                allows me to give the controller absolute movement commands instead of only commands to move relative to
+                its current position.</p>
+
+            <h3>Electromagnet!</h3>
+            <p>Now that basic movement was working, I decided to focus on finding a suitable electromagnet. This part of
+                the project took a lot of time researching datasheets and listings for different electromagnets. I
+                needed to find an electromagnet that had a magnetic field powerful enough to reach the pieces through
+                the board and move them. The problem was that most electromagnets that are powerful enough are wider
+                than the chess pieces. The chess pieces must be very precisely half the width of the squares on the
+                chess board so they can move in between other pieces. If the electromagnet was any wider than the piece,
+                then when one piece moved in between other pieces, the other pieces would be picked up by the
+                electromagnet and dragged along with it.</p>
+            <p>I experimented with several different sizes of electromagnets and tested extending the center of the
+                electromagnet or tilting it to narrow the magnetic field, among other ideas. I crudely analyzed the
+                strengths of the electromagnets by attaching a bag to a metal object held by the electromagnet and
+                filling the bag with progressively heavier dumbbells until the bag became too heavy and fell (onto my
+                foot, usually). The best candidate ended up being a hard-to-find powerful electromagnet that was the
+                same width
+                as the pieces. The Arduino can’t output enough power for the electromagnet, so I used a 5-volt relay to
+                allow the Arduino output to control the electromagnet state. The electromagnet ran on 24 volts unlike
+                the 12 volts used by the other electronics, but I added a 12V to 24V step-up converter so everything
+                could run on one power supply. </p>
+
+            <h3>Chess Pieces</h3>
+            <p>As I was testing the electromagnets, I was also iterating on chess piece designs. First, I tried adding
+                cavities to the bottoms of the chess pieces and filling them with iron filings, but the magnetic field
+                wasn’t strong enough to move the pieces (and the iron filings were nightmarish to clean up). Next, I
+                tried hot gluing steel nuts to the bottoms of the pieces, which was much less messy and worked well on
+                thin board surfaces. However, it wasn’t very reliable with any distance thicker than a piece of paper
+                between the electromagnet and the pieces. The solution I settled on was embedding 3mm diameter neodymium
+                permanent magnets inside the pieces. I added an internal cavity to the pieces in CAD and programmed the
+                3D printer (that I hadn’t ripped apart to turn into a chessboard) to pause partway through the print. I
+                added the permanent magnets and then finished the print, creating effective pieces with embedded magnets
+                that can’t fall out.</p>
+            <p>On a few occasions, I unintentionally placed the magnets upside-down inside one of the pieces. I found
+                out during testing when the board tried to move the piece and instead threw it upwards! In a future
+                upgrade, I may add the electronics to programmatically reverse the polarity of the electromagnet, which
+                would allow the board to topple its own king when faced with a checkmate.</p>
+            <p>While testing the electromagnets and chess pieces, I also tested various board surface materials and
+                thicknesses. I settled on 0.0625 inch thick polycarbonate because it is thin enough that the pieces can
+                be reached by the magnetic field, and it doesn’t interfere with the magnets.</p>
+
+            <h3>Enclosure CAD</h3>
+            <p>I started designing the next iteration of the enclosure, which would be much less crude than the wooden
+                prototype frame. I spent hours meticulously reproducing the entire gantry, axles, and carriage in CAD. I
+                modeled essentially every part of the project, including the power supply, stepper motors, Arduino,
+                relay, step-up converter, electromagnet, power input and power switch, and board surface.</p>
+            <p>The gantry needs room to move, so it takes up most of the space inside the enclosure, leaving little
+                clearance to fit everything else inside. Now that everything was in CAD, I could rearrange components to
+                ensure everything would fit neatly and efficiently inside the enclosure. I designed a custom mounting
+                bracket to attach the electromagnet to the carriage at the correct distance from the board while
+                allowing for proper cable management. I also designed mounting points for every component into the
+                interior of the enclosure to hold everything in place. The full enclosure was too large to fit in the
+                bed of the 3D printer, so I split it into quadrants, printed the parts separately, and used dovetails to
+                reconnect them. The top of the enclosure is flat with supports to hold the board surface in place. Small
+                cutouts allow for easy removal of the board surface to service or display the internals.</p>
+
+            <h3>Code</h3>
+            <p>I added another layer to the code on the Arduino to allow the Arduino to calculate the positions of the
+                squares on the board in motor steps, so that it could move to the appropriate square when given a square
+                coordinate (such as e2). With the electromagnet state controllable via the relay, I added a function to
+                move a piece from one square to another by moving to the source square, energizing the electromagnet,
+                moving to the destination square, and deactivating the electromagnet. Next, I wrote a simple algorithm
+                to avoid bumping into other pieces on the board by moving the piece along the edges of the squares. I
+                also added the ability to handle castling and, when capturing a piece, move the captured piece off the
+                board, made possible by storing a map of the current board position. </p>
+            <p>I designed the code to implement the Universal Chess Interface (UCI), which is the standard format chess
+                engines and Graphical User Interfaces (GUIs) use to talk to each other. The chessboard would act as a
+                GUI, showing moves while querying a separate engine for its output. I experimented with running a very
+                simple chess engine on the Arduino, which is technically possible, but I found it was too slow and
+                incompetent for this use case. Instead, I wrote a simple Python program that runs on my computer: it
+                runs the chess engine and sends the engine output to the Arduino via Serial (over USB) and vice versa.
+                Because the chessboard implements the UCI, virtually any chess engine can be used with the chessboard.
+                With the engine connected, I had a functional self-playing chessboard!</p>
+
+            <h3>Future</h3>
+            <p>In the future, I may switch the Arduino to a Raspberry Pi in order to run everything on one chipset
+                instead of two, but that will require a full code rewrite. I’m contemplating adding drawing
+                functionality as well. I’ve had a great time showing the chessboard to people and hearing their thoughts
+                and ideas.</p>
+            <p>There were many other research and experimental tangents along the way. This page is more of a personal
+                account than a comprehensive guide, but if you’re building your own magic chessboard (or you’re handing
+                out internships) and have a question, feel free to <a href="mailto:contact@kaveergera.com">email me</a>.
+            </p>
+
         </section>
     </main>
 </div>
